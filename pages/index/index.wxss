@@ -1,0 +1,53 @@
+/**index.wxss**/
+page{
+  background:#000
+}
+.screen {
+  position: fixed;
+  bottom: 780rpx;
+  word-wrap: break-word;
+  width: 750rpx;
+}
+.screen view {
+  color: #fff;
+  font-size: 30px;
+  text-align: right;
+  margin-right: 30rpx;
+}
+.bottom{
+  position: fixed;
+  bottom: 0
+}
+.btnGroup{
+  display: flex;
+  flex-direction: row;
+}
+.btn-item{
+ width: 189rpx;
+ text-align: center;
+ line-height: 150rpx;
+ border-radius: 0
+}
+.gray{
+  background: #CFCFCF;
+}
+.orange {
+  background: #FC9504;
+}
+.white {
+  background: #EFEFED;
+}
+icon{
+  position: absolute;
+  left: 55rpx;
+  top: 37rpx
+}
+.zero{
+  width: 375rpx
+}
+button::after{
+  border-radius: 0
+}
+.shadow{
+  background: #999;
+}

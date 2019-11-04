@@ -1,0 +1,36 @@
+<view class="screen">
+  <view>{{result}}</view>
+</view>
+<view class="bottom">
+  <view class="btnGroup">
+    <button class="btn-item gray" hover-class='shadow' bindtap="clickButton" id="{{id1}}">清除</button>
+    <button class="btn-item gray" hover-class='shadow' bindtap="clickButton" id="{{id2}}">回退</button>
+    <button class="btn-item gray" hover-class='shadow' bindtap="clickButton" id="{{id3}}">
+      <icon type='waiting' size='30' color='#999'></icon>
+    </button>
+    <button class="btn-item orange" hover-class='shadow' bindtap="clickButton" id="{{id4}}">/</button>
+  </view>
+  <view class="btnGroup">
+    <button class="btn-item white" hover-class='shadow' bindtap="clickButton" id="{{id5}}">7</button>
+    <button class="btn-item white" hover-class='shadow' bindtap="clickButton" id="{{id6}}">8</button>
+    <button class="btn-item white" hover-class='shadow' bindtap="clickButton" id="{{id7}}">9</button>
+    <button class="btn-item orange" hover-class='shadow' bindtap="clickButton" id="{{id8}}">*</button>
+  </view>
+  <view class="btnGroup">
+    <button class="btn-item white" hover-class='shadow' bindtap="clickButton" id="{{id9}}">4</button>
+    <button class="btn-item white" hover-class='shadow' bindtap="clickButton" id="{{id10}}">5</button>
+    <button class="btn-item white" hover-class='shadow' bindtap="clickButton" id="{{id11}}">6</button>
+    <button class="btn-item orange" hover-class='shadow' bindtap="clickButton" id="{{id12}}">-</button>
+  </view>
+  <view class="btnGroup">
+    <button class="btn-item white" hover-class='shadow' bindtap="clickButton" id="{{id13}}">1</button>
+    <button class="btn-item white" hover-class='shadow' bindtap="clickButton" id="{{id14}}">2</button>
+    <button class="btn-item white" hover-class='shadow' bindtap="clickButton" id="{{id15}}">3</button>
+    <button class="btn-item orange" hover-class='shadow' bindtap="clickButton" id="{{id16}}">+</button>
+  </view>
+  <view class="btnGroup">
+    <button class="btn-item zero white" hover-class='shadow' bindtap="clickButton" id="{{id17}}">0</button>
+    <button class="btn-item white" hover-class='shadow' bindtap="clickButton" id="{{id18}}">.</button>
+    <button class="btn-item orange" hover-class='shadow' bindtap="equals" id="{{id19}}">=</button>
+  </view>
+</view>
